@@ -1,0 +1,44 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.90.21",
+    "axios": "^1.13.5",
+    "better-sqlite3": "^12.6.2",
+    "cytoscape": "^3.28.1",
+    "cytoscape-cose-bilkent": "^4.1.0",
+    "next": "16.1.6",
+    "qs": "6.15.0",
+    "react": "19.2.3",
+    "react-cytoscapejs": "^2.0.0",
+    "react-dom": "19.2.3",
+    "react-syntax-highlighter": "^16.1.0",
+    "semver": "7.7.4",
+    "tar": "7.5.9",
+    "tough-cookie": "4.1.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/cytoscape": "^3.19.15",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "@types/webpack": "^5.28.5",
+    "autoprefixer": "^10.4.24",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5",
+    "webpack": "^5.105.2"
+  }
+}

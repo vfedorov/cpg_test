@@ -1,0 +1,13 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./cpg.db:/app/cpg.db:ro
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL=file:/app/cpg.db
+    restart: unless-stopped
