@@ -8,7 +8,7 @@ The easiest way to run the application is using Docker. Ensure you have Docker a
 
 ### 1. Clone the repository:
 ```
-git clone https://github.com/vfedorov/cpg-test.git
+git clone https://github.com/vfedorov/cpg_test.git
 cd cpg-test
 ```
 
